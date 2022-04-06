@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/shares.json" type="text/javascript"></script><script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/auth015.js" type="text/javascript"></script><script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/counter016.js" type="text/javascript"></script><link media="all" href="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/counter013.css" type="text/css" rel="stylesheet"><script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/context_static_r649.js" charset="utf-8"></script><script async="true" src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/context.js" type="text/javascript"></script><link media="all" href="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/widget118.css" type="text/css" rel="stylesheet">
+<title>Защита АС на микросхеме uPC1237 (СА1237HA)</title>
+<meta name="description" content="Схема защиты АС на микросхеме uPC1237 (СА1237HA).">
+<meta charset="utf-8">
+<meta name="Author" content="Copyright 2013 - http://cxem.net">
+
+<link href="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/style.css" rel="stylesheet" type="text/css">
+
+<script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/watch.js" charset="utf-8"></script><style type="text/css">body .ya-partner .ya-partner__hidden {
+    display: none !important;
+}
+ .ya-partner {
+    font-size: 100% !important;
+    position: relative !important;
+    display: block !important;
+    overflow: hidden !important;
+    text-align: left !important;
+    line-height: normal !important;
+    border-radius: 4px 4px 4px 4px !important;
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    white-space: normal !important;
+}
+ .ya-partner__l-table, .ya-partner__l-tr, .ya-partner__l-td {
+    background: transparent none no-repeat scroll 0 0 !important;
+    border: none !important;
+    border-radius: none !important;
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+    clear: none !important;
+    clip: auto !important;
+    color: inherit !important;
+    cursor: auto !important;
+    empty-cells: show !important;
+    float: none !important;
+    font: inherit !important;
+    font-variant: normal !important;
+    font-weight: normal !important;
+    height: auto !important;
+    letter-spacing: normal !important;
+    line-height: normal !important;
+    margin: 0 !important;
+    max-height: none !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    min-width: 0 !important;
+    outline: none !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    position: static !important;
+    table-layout: auto !important;
+    text-align: left !important;
+    text-decoration: none !important;
+    text-indent: 0 !important;
+    text-transform: none !important;
+    vertical-align: middle !important;
+    visibility: visible !important;
+    white-space: normal !important;
+    width: auto !important;
+    word-spacing: normal !important;
+    z-index: auto !important;
+}
+ .ya-partner__domain-link {
+    text-decoration: none !important;
+}
+ .ya-partner__domain-link:hover {
+    text-decoration: underline !important;
+}
+ .ya-partner, .ya-partner__ads-l, .ya-partner__ads-l em, .ya-partner__item, .ya-partner__title-link-text, .ya-partner__text, .ya-partner__domain-link, .ya-partner__region, ya-partner__pic-container, ya-partner__pic, .ya-partner__list tbody, .ya-partner__list tr, .ya-partner__list td {
+    font-size: inherit !important;
+    font-style: normal !important;
+    text-indent: 0 !important;
+}
+ .ya-partner_text_clickable a.ya-partner__text-link {
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+ .ya-partner_text_clickable a.ya-partner__text-link:hover {
+    text-decoration: underline !important;
+}
+ .ya-partner__pic-container {
+    display: block !important;
+    margin: 3px 0 !important;
+}
+ .ya-partner__item_piclayout_left .ya-partner__pic-container {
+    margin: 0 0.4em 0 0 !important;
+}
+ .ya-partner__item_piclayout_float .ya-partner__pic-container {
+    margin: 0.4em 0.4em 0 0 !important;
+    float: left !important;
+}
+ .ya-partner__item_piclayout_float .ya-partner__address, .ya-partner__item_piclayout_float .ya-partner__domain-link, .ya-partner__item_piclayout_float .ya-partner__region {
+    white-space: nowrap !important;
+}
+ .ya-partner__clearfix {
+    background: transparent none no-repeat scroll 0 0 !important;
+    border: none !important;
+    border-radius: none !important;
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+    clear: both !important;
+    clip: auto !important;
+    color: inherit !important;
+    cursor: auto !important;
+    empty-cells: show !important;
+    float: none !important;
+    font: inherit !important;
+    font-variant: normal !important;
+    font-weight: normal !important;
+    height: 0 !important;
+    letter-spacing: normal !important;
+    line-height: 0 !important;
+    margin: 0 !important;
+    max-height: none !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    min-width: 0 !important;
+    outline: none !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    position: static !important;
+    table-layout: auto !important;
+    text-align: left !important;
+    text-decoration: none !important;
+    text-indent: 0 !important;
+    text-transform: none !important;
+    vertical-align: baseline !important;
+    visibility: visible !important;
+    white-space: normal !important;
+    width: auto !important;
+    word-spacing: normal !important;
+    z-index: auto !important;
+    font-size: 0 !important;
+    display: block !important;
+}
+ .ya-partner__pic, .ya-partner__pic:link, .ya-partner__pic:hover, .ya-partner__pic:visited {
+    background: transparent 0 0 no-repeat scroll !important;
+    border: none !important;
+    border-radius: none !important;
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+    clear: none !important;
+    clip: auto !important;
+    color: inherit !important;
+    cursor: pointer !important;
+    empty-cells: show !important;
+    float: none !important;
+    font: inherit !important;
+    font-variant: normal !important;
+    font-weight: normal !important;
+    height: auto !important;
+    letter-spacing: normal !important;
+    line-height: normal !important;
+    margin: 0 !important;
+    max-height: none !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    min-width: 0 !important;
+    outline: none !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    position: static !important;
+    table-layout: auto !important;
+    text-align: left !important;
+    text-decoration: none !important;
+    text-indent: 0 !important;
+    text-transform: none !important;
+    vertical-align: baseline !important;
+    visibility: visible !important;
+    white-space: normal !important;
+    width: auto !important;
+    word-spacing: normal !important;
+    z-index: auto !important;
+    display: block !important;
+}
+ .ya-partner yatag {
+    text-align: left !important;
+    font-family: inherit !important;
+}
+ .ya-partner__list {
+    display: block !important;
+    line-height: normal !important;
+    font-size: inherit !important;
+    text-indent: 0 !important;
+}
+ .ya-partner__title-link, .ya-partner__address, .ya-partner__ads-link {
+    background: transparent none no-repeat scroll 0 0 !important;
+    border: none !important;
+    border-radius: none !important;
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+    clear: none !important;
+    clip: auto !important;
+    color: inherit !important;
+    cursor: pointer !important;
+    empty-cells: show !important;
+    float: none !important;
+    font: inherit !important;
+    font-variant: normal !important;
+    font-weight: normal !important;
+    height: auto !important;
+    letter-spacing: normal !important;
+    line-height: normal !important;
+    margin: 0 !important;
+    max-height: none !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    min-width: 0 !important;
+    outline: none !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    position: static !important;
+    table-layout: auto !important;
+    text-align: left !important;
+    text-decoration: none !important;
+    text-indent: 0 !important;
+    text-transform: none !important;
+    vertical-align: baseline !important;
+    visibility: visible !important;
+    white-space: normal !important;
+    width: auto !important;
+    word-spacing: normal !important;
+    z-index: auto !important;
+    font-size: inherit !important;
+    font-style: normal !important;
+    display: inline !important;
+}
+ a.ya-partner__address:hover {
+    text-decoration: underline !important;
+}
+ .ya-partner__address {
+    margin-right: 0.3em !important;
+}
+ a.ya-partner__ads-link:link, a.ya-partner__ads-link:hover, a.ya-partner__ads-link:visited {
+    text-decoration: none !important;
+    font-weight: normal !important;
+}
+ .ya-partner__ads-link em {
+    font-style: normal !important;
+    font-weight: normal !important;
+    background: none repeat scroll 0 0 transparent !important;
+}
+ .ya-partner__item {
+    border-radius: 4px 4px 4px 4px !important;
+    border: none !important;
+    padding: 0.2em 0.3em !important;
+    line-height: normal !important;
+}
+ .ya-partner_ads_inner-up .ya-partner__item_pos_first, .ya-partner_ads_inner-up-down .ya-partner__item_pos_first, .ya-partner_ads_inner-down .ya-partner__item_pos_last {
+    border-radius: 0 4px 4px 4px !important;
+}
+ .ya-partner_ads_inner-down .ya-partner__item_pos_last, .ya-partner_ads_inner-up-down .ya-partner__item_pos_last {
+    border-radius: 4px 4px 4px 0 !important;
+}
+ .ya-partner_ads_inner-down .ya-partner__item_pos_first.ya-partner__item_pos_last {
+    border-radius: 4px 4px 4px 0 !important;
+}
+ .ya-partner__sitelinks {
+    display: block !important;
+    padding: 0 0 0.3em !important;
+    margin-top: -0.1em !important;
+}
+ .ya-partner__sitelink {
+    padding: 0.08em 0 0.08em 0 !important;
+    vertical-align: middle !important;
+    display: inline-block !important;
+}
+ .ya-partner__sitelinks wbr {
+    display: none !important;
+}
+ .ya-partner__sitelinks-text {
+    text-decoration: underline !important;
+}
+ .ya-partner_text_clickable a.ya-partner__sitelinks-text {
+    text-decoration: none !important;
+}
+ .ya-partner_text_clickable a.ya-partner__sitelinks-text:hover {
+    text-decoration: underline !important;
+}
+ .ya-partner__sitelinks-inline-delim {
+    display: inline !important;
+    padding: 0 0.8em !important;
+}
+ .ya-partner__url {
+    font-size: 87% !important;
+    display: block !important;
+}
+ body .ya-partner__hide-urls .ya-partner__url {
+    display: none !important;
+}
+ body .ya-partner__overflow-hide-urls .ya-partner__url {
+    display: none !important;
+}
+ .ya-partner__warn {
+    font-size: 70% !important;
+    border-radius: 2px !important;
+    -moz-border-radius: 2px !important;
+    -webkit-border-radius: 2px !important;
+    padding: 0.25em 0.3em 0.25em !important;
+    line-height: 1.1em !important;
+}
+ .ya-partner__agewarn-displacer {
+    display: inline-block !important;
+    color: transparent !important;
+    font: normal normal 11px Tahoma, Arial, sans-serif !important;
+    padding: 0 2px !important;
+    visibility: hidden !important;
+}
+ .ya-partner__sitelinks .ya-partner__agewarn-displacer, .ya-partner__text .ya-partner__agewarn-displacer {
+    display: none !important;
+}
+ .ya-partner__hide-urls .ya-partner__text .ya-partner__agewarn-displacer {
+    display: inline-block !important;
+}
+ .ya-partner__agewarn-wrapper {
+    display: block !important;
+}
+ .ya-partner__agewarn-cont {
+    float: right !important;
+    margin-top: -1.2em !important;
+}
+ yatag.ya-partner__agewarn {
+    font: normal normal 11px Tahoma, Arial, sans-serif !important;
+    border-radius: 4px !important;
+    padding: 0 1px !important;
+}
+ .ya-partner__ads {
+    white-space: nowrap !important;
+    font-size: 87% !important;
+}
+ .ya-partner__icon {
+    font: 0/0 a !important;
+    margin: 0 4px -2px 0 !important;
+    vertical-align: baseline !important;
+    border: 0 !important;
+    display: inline !important;
+    width: 16px !important;
+    height: 16px !important;
+    float: none !important;
+}
+ .ya-partner__ads-link {
+    position: relative !important;
+    z-index: 10 !important;
+    margin-left: 5px !important;
+    line-height: normal !important;
+    white-space: nowrap !important;
+}
+ .ya-partner__ads-l {
+    display: inline-block !important;
+    position: relative !important;
+    background: none repeat scroll 0 0 transparent !important;
+    padding-right: .75em !important;
+}
+ * html .ya-partner__ads-l {
+    display: inline !important;
+    zoom: 1 !important;
+}
+ a.ya-partner__ads-link-l,a.ya-partner__ads-link-l:link,a.ya-partner__ads-link-l:hover,a.ya-partner__ads-link-l:visited,a.ya-partner__ads-link-l:active,a.ya-partner__ads-link-l:focus {
+    font-weight: normal !important;
+}
+ a.ya-partner__title-link,a.ya-partner__title-link:link,a.ya-partner__title-link:hover,a.ya-partner__title-link:visited,a.ya-partner__title-link:active,a.ya-partner__title-link:focus {
+    font-weight: normal !important;
+    line-height: normal !important;
+    text-decoration: none !important;
+}
+ a.ya-partner__title-link .ya-partner__title-link-text,a.ya-partner__title-link .ya-partner__title-link-text:link,a.ya-partner__title-link .ya-partner__title-link-text:hover,a.ya-partner__title-link .ya-partner__title-link-text:visited,a.ya-partner__title-link .ya-partner__title-link-text:active,a.ya-partner__title-link .ya-partner__title-link-text:focus {
+    display: inline !important;
+    text-decoration: underline !important;
+}
+ .ya-partner_text_clickable a.ya-partner__title-link .ya-partner__title-link-text {
+    text-decoration: none !important;
+}
+ .ya-partner_text_clickable a.ya-partner__title-link:hover .ya-partner__title-link-text {
+    text-decoration: underline !important;
+}
+ .ya-partner_ads-up .ya-partner__ads {
+    position: relative !important;
+    display: block !important;
+}
+ .ya-partner_ads-up .ya-partner__ads-l {
+    padding-bottom: 1px !important;
+    vertical-align: top !important;
+    border-radius: 4px 0 0 0 !important;
+    -moz-border-radius: 4px 0 0 0 !important;
+    -webkit-border-radius: 4px 0 0 0 !important;
+}
+ .ya-partner_ads-down .ya-partner__ads {
+    position: absolute !important;
+    bottom: 0 !important;
+}
+ .ya-partner_ads-down .ya-partner__list {
+    padding-bottom: 1em !important;
+}
+ .ya-partner_ads-down .ya-partner__ads-l {
+    border-radius: 0 0 0 3px !important;
+    -moz-border-radius: 0 0 0 3px !important;
+    -webkit-border-radius: 0 0 0 3px !important;
+}
+ .ya-partner_ads_inner-up-down .ya-partner__list {
+    margin: 0 0 1em !important;
+}
+ .ya-partner_ads-up-down .ya-partner__list {
+    margin: 1em 0 !important;
+}
+ .ya-partner_ads_inner-up-down .ya-partner__ads-l, .ya-partner_ads-up-down .ya-partner__ads-l {
+    border-radius: 3px 0 0 0 !important;
+    -moz-border-radius: 3px 0 0 0 !important;
+    -webkit-border-radius: 3px 0 0 0 !important;
+}
+ .ya-partner_ads-up-down .ya-partner__ads-l {
+    position: absolute !important;
+    top: 0 !important;
+}
+ .ya-partner_ads-up-down .ya-partner__ads-link {
+    display: inline-block !important;
+    padding-bottom: 2px !important;
+}
+ .ya-partner_ads_inner-up-down .ya-partner__ads-link, .ya-partner_ads-up-down .ya-partner__ads-link {
+    margin-left: 5px !important;
+}
+ .ya-partner_ads_inner-up .ya-partner__ads {
+    display: block !important;
+}
+ .ya-partner_ads_inner-up .ya-partner__ads-l {
+    border-radius: 4px 0 0 0 !important;
+    -moz-border-radius: 4px 0 0 0 !important;
+    -webkit-border-radius: 4px 0 0 0 !important;
+}
+ .ya-partner_ads_inner-down .ya-partner__ads {
+    display: block !important;
+}
+ .ya-partner_ads_inner-down .ya-partner__ads-l {
+    border-radius: 0 0 0 4px !important;
+    -moz-border-radius: 0 0 0 4px !important;
+    -webkit-border-radius: 0 0 0 4px !important;
+}
+ .ya-partner_ads_inner-down .ya-partner__ads-link, .ya-partner_ads-down .ya-partner__ads-link {
+    display: inline-block !important;
+    padding-bottom: 1px !important;
+}
+ .ya-partner_ads_only-arrow .ya-partner__ads {
+    margin-right: 0.5em !important;
+}
+ .ya-partner_margin_yes .ya-partner__icon {
+    margin-left: -20px !important;
+}
+ .ya-partner_margin_yes .ya-partner__item {
+    padding-left: 20px !important;
+}
+ .ya-partner__wrap-fit {
+    display: block !important;
+    zoom: 1 !important;
+    position: relative !important;
+    padding-bottom: 1px !important;
+    font-size: inherit !important;
+    border-radius: 4px 4px 4px 4px !important;
+}
+ .ya-partner__item .ya-partner__adtune-positioning-wrapper {
+    display: block !important;
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+ .ya-partner__item .ya-partner__adtune-arrow {
+    display: none !important;
+}
+ .ya-partner__item-ad_tune__yes .ya-partner__adtune-arrow {
+    display: block !important;
+    cursor: pointer !important;
+    position: absolute !important;
+    top: 4px !important;
+    right: 4px !important;
+    width: 13px !important;
+    height: 16px !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    background-image: url(//an.yandex.ru/resource/arrow-sprite-01.png) !important;
+}
+ .ya-partner__item-ad_tune__yes .ya-partner__adtune-arrow:hover {
+    background-position: 0px -16px !important;
+}
+ .ya-partner_type_flat .ya-partner__title-link, .ya-partner_type_flat .ya-partner__text, .ya-partner_type_flat .ya-partner__url {
+    display: inline !important;
+    vertical-align: baseline !important;
+}
+ :root .ya-partner_type_flat {
+    display: table\0/IE9 !important;
+    width: 100%\0/IE9 !important;
+}
+ :root .ya-partner_type_flat.ya-partner_border.ya-partner_ads-down .ya-partner__ads {
+    bottom: 1px\0/IE9 !important;
+}
+ .ya-partner_type_flat .ya-partner__item {
+    display: block !important;
+    line-height: normal !important;
+}
+ .ya-partner_type_flat .ya-partner__text {
+    padding-left: 0.5em !important;
+}
+ .ya-partner_type_flat .ya-partner__warn {
+    display: block !important;
+    margin-top: 0.3em !important;
+}
+ .ya-partner_type_flat .ya-partner__text .ya-partner__agewarn-cont {
+    float: none !important;
+}
+ .ya-partner_type_flat .ya-partner__text .ya-partner__clearfix {
+    display: none !important;
+}
+ .ya-partner_type_flat .ya-partner__l-td {
+    vertical-align: middle !important;
+}
+ .ya-partner_type_flat .ya-partner__l-table {
+    width: 100% !important;
+}
+ .ya-partner_type_flat .ya-partner__l-pic-td {
+    width: 1px !important;
+}
+ .ya-partner_type_flat .ya-partner__item_pic_yes .ya-partner__text {
+    display: block !important;
+}
+ .ya-partner_theme_flat_inner .ya-partner__item {
+    margin-bottom: 0.5em !important;
+}
+ .ya-partner_theme_flat_inner .ya-partner__item_pos_last {
+    margin-bottom: 0 !important;
+}
+ .ya-partner_type_flat-simple .ya-partner__list {
+}
+ .ya-partner_type_flat-simple .ya-partner__url {
+    display: block !important;
+    margin-top: 0.3em !important;
+}
+ .ya-partner_type_flat-simple .ya-partner__item {
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+ .ya-partner_type_flat-simple .ya-partner__item_pic_yes {
+    padding-top: .2em !important;
+    padding-bottom: .2em !important;
+}
+ .ya-partner_type_flat-simple .ya-partner__text {
+    padding-left: 0 !important;
+}
+ .ya-partner_type_flat .ya-partner__sitelinks {
+    margin-top: 0.3em !important;
+    padding-bottom: 0.1em !important;
+}</style><style type="text/css">#ya_partner_yd_cxem_bottom1-flat .ya-partner__title-link-text:visited {
+    color: #208EBC !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner__title-link-text:link {
+    color: #208EBC !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner__title-link-text:hover {
+    color: #CC6666 !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner__sitelinks-text:visited {
+    color: #208EBC !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner__sitelinks-text:link {
+    color: #208EBC !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner__sitelinks-text:hover {
+    color: #CC6666 !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner__title-link-text {
+    color: #208EBC !important;
+    font-size: 128% !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner__region {
+    color: #1A8099 !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner__domain-link {
+    color: #1A8099 !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner__address {
+    color: #1A8099 !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner {
+    font-family: inherit !important;
+    color: #000000 !important;
+    font-size: 1.1em !important;
+    background: undefined !important;
+    border-radius: 0 !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner__text {
+    font-family: inherit !important;
+    color: #000000 !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner__text-link {
+    font-family: inherit !important;
+    color: #000000 !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner__sitelinks {
+    color: #000000 !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner_ads-down .ya-partner__ads-l {
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner_ads-up .ya-partner__ads-l {
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner__wrap-fit {
+    border-radius: 0 !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner__item {
+    border-radius: 0 !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner__warn {
+    border: 1px solid #D8D8D8 !important;
+    background-color: #FFFFFF !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat .ya-partner__agewarn {
+    border: 1px solid #D8D8D8 !important;
+    background-color: #FFFFFF !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat a.ya-partner__ads-link-l:link {
+    text-decoration: underline !important;
+    color: #000 !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat a.ya-partner__ads-link-l:hover {
+    text-decoration: underline !important;
+    color: #000 !important;
+}
+ #ya_partner_yd_cxem_bottom1-flat a.ya-partner__ads-link-l:visited {
+    text-decoration: underline !important;
+    color: #000 !important;
+}</style></head>
+
+<body>﻿
+
+<script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/ga.js" async="" type="text/javascript"></script><script>var the_draft_name = "Защита АС на микросхеме uPC1237 (СА1237HA)";</script><script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/jquery-1.js"></script>
+<script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/main.js"></script>
+
+<link rel="stylesheet" href="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/main.css">
+<link rel="stylesheet" href="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/modalWindows.css">
+<script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/modalWindows.js"></script>
+
+<script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/jquery_002.js"></script>
+<script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/bottomRight.js"></script>
+<script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/top.js"></script>
+<script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/topRight.js"></script>
+<script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/default.js"></script>
+<script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/config.js"></script>
+
+<script>
+	</script>
+
+<script>
+	$(document).ready(function() {
+	            var _cads = ['Sprint-Layout', 'Eagle', 'Altium Designer (P-CAD)', 'DipTrace', 'ExpressPCB'];
+	            var _seller = false;
+	            for (var i = 0, length = _cads.length; i < length; i++) {
+		            var _cad = _cads[i];
+					var _break = false;
+
+		            $('.tags a.ourtag').each(function(i, el) {
+			            if ($(el).text() == _cad) {
+				            _seller = true;
+				            _break = true;
+				            return false;
+			            }
+		            });
+
+		            if (_break) break;
+	            }
+
+	            if (_seller) {
+		            var _buy = $('<div class="buy-pcb"><span class="buy_pcb" id="buyPCB">Заказать печатную плату к данной статье</span></div>');
+		            _buy.insertAfter('ul.tags');
+		            $('#buyPCB').live('click', function() {
+			            location.href = '/pshop/order.php?id=1284';
+		            });
+	            }
+	});
+</script>
+
+	        
+<script type="text/javascript">
+   window.google_analytics_uacct = "UA-18262495-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-18262495-2']);
+	_gaq.push(['_setSiteSpeedSampleRate']);    
+	_gaq.push(['_trackPageview']);
+	
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+<!-- Начало НЕВИДИМЫХ СЧЕТЧИКОВ -->
+<div style="position:absolute;top:-100px;left:-100px;">
+<!--LiveInternet counter--><script type="text/javascript"><!--
+new Image().src = "//counter.yadro.ru/hit;payalnik_all?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";h"+escape(document.title.substring(0,80))+
+";"+Math.random();//--></script><!--/LiveInternet-->
+
+<!--begin of Ramblers Top100 code -->
+<img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/top100.gif" border="0" height="1" width="1">
+<!--end of Top100 code-->
+
+</div>
+<!-- Конец НЕВИДИМЫХ СЧЕТЧИКОВ -->
+
+<div class="wrap">
+	
+<!-- Начало ШАПКИ -->
+	<div id="header">
+		<div class="left"></div>
+		<div class="right"></div>
+		<div class="schem"></div>
+		<a href="http://cxem.net/" class="logo"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/logo.png" alt="Паяльник" border="0"></a>
+		<div class="round"></div>
+		<div class="hend"></div>
+		<div class="name"></div>
+		<div class="buttons">
+			<a href="http://translate.google.com/translate?hl=ru&amp;sl=ru&amp;tl=en&amp;u=http://cxem.net/sound/amps/amp162.php" class="lang" title="Translate to English"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/lang-eng.png" alt="English" border="0"></a>
+			<form action="http://cxem.net/search.php" method="get" class="search">
+				<div class="submit"><button type="submit"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/but-search.png" alt="OK"></button></div>
+				<div class="field"><input name="search_str" type="search"></div>
+			</form>
+			<div class="links">
+				<div class="rightCorner">&nbsp;</div>
+				<ul>
+					<li class="first last"><a href="http://cxem.net/circuit_send.php"><span><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/link-publish.png" alt="Прислать схему" title="Пришлите схему и получите гонорар" border="0"></span></a></li>
+				</ul>	
+				<div class="leftCorner">&nbsp;</div>
+			</div>
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="http://cxem.net/chems.php" class="item"><b></b><span><div class="sprite_menu chems"></div></span><i></i></a>
+					<div class="subnav">
+						<div class="subnav-bg"></div>
+						<ul>
+							<li><a href="http://cxem.net/sound/sound.php"><em>&gt;</em>Аудио</a>
+								<div class="subnav">
+									<div class="subnav-bg"></div>
+									<ul>
+										<li><a href="http://cxem.net/sound/dinamics/dinamics.php">Динамики, сабвуферы </a></li>
+										<li><a href="http://cxem.net/sound/amps/amps.php">Усилители НЧ и ламповые УНЧ </a></li>
+										<li><a href="http://cxem.net/sound/tembrs/tembrs.php">Регуляторы тембра, эквалайзеры</a></li>
+										<li><a href="http://cxem.net/sound/soundpred/soundpred.php">Предварительные усилители</a></li>
+										<li><a href="http://cxem.net/sound/light/light.php">Светомузыкальные установки</a></li>
+										<li><a href="http://cxem.net/sound/music/music.php">Эффекты и примочки</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#"><em>&gt;</em>Шпионские штучки</a>
+								<div class="subnav">
+									<div class="subnav-bg"></div>
+									<ul>
+										<li><a href="http://cxem.net/radiomic/radiomic.php">Радиомикрофоны и жучки</a></li>
+										<li><a href="http://cxem.net/indicator/indicator.php">Детекторы радиозакладок</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="http://cxem.net/avto/avto.php"><em>&gt;</em>Авто-электроника</a>
+								<div class="subnav">
+									<div class="subnav-bg"></div>
+									<ul>
+										<li><a href="http://cxem.net/avto/electronics/4.php">Электроника для автомобиля</a></li>
+										<li><a href="http://cxem.net/avto/alarm/alarm.php">Охранные устройства и сигнализации</a></li>
+										<li><a href="http://cxem.net/avto/injectors/inject.php">Инжектор</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#"><em>&gt;</em>Радиоприем и передача</a>
+								<div class="subnav">
+									<div class="subnav-bg"></div>
+									<ul>
+										<li><a href="http://cxem.net/tuner/tuner.php">Радиоприемники</a></li>
+										<li><a href="http://cxem.net/cb/1.php">Си-Би техника связи</a></li>
+										<li><a href="http://cxem.net/rmodem/rmodem.php">Радиомодемы</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#"><em>&gt;</em>Автоматика в быту</a>
+								<div class="subnav">
+									<div class="subnav-bg"></div>
+									<ul>
+										<li><a href="http://cxem.net/house/1.php">Домашняя электроника</a></li>
+										<li><a href="http://cxem.net/greentech/greentech.php">Зеленые технологии</a></li>										
+										<li><a href="http://cxem.net/ik/2.php">Инфракрасная техника</a></li>
+										<li><a href="http://cxem.net/dozimetr/3.php">Осторожно радиация</a></li>
+										<li><a href="http://cxem.net/medic/medic.php">Медицинская техника</a></li>
+										<li><a href="http://cxem.net/elud/elud.php">Электроудочки</a></li>
+										<li><a href="http://cxem.net/metal/metal.php">Металлоискатели</a></li>
+										<li><a href="http://cxem.net/guard/3.php">Охранные устройства</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="http://cxem.net/beginner/beginner.php">Начинающим</a></li>
+							<li><a href="http://cxem.net/telefon/2.php">Телефония и фрикинг</a></li>
+							<li><a href="http://cxem.net/comp/comp.php">Компьютерная электроника</a></li>
+							<li><a href="http://cxem.net/mc/mc.php">Микроконтроллеры</a></li>
+							<li><a href="http://cxem.net/arduino/arduino.php">Arduino</a></li>
+							<li><a href="http://cxem.net/uprav/uprav.php">Роботы и РУ-модели</a></li>					
+							<li><a href="http://cxem.net/tv/tv.php">Телевизионная техника</a></li>
+							<li><a href="http://cxem.net/ntv/ntv.php">Спутниковое ТВ</a></li>
+							<li><a href="http://cxem.net/sotov/sotov.php">Сотовая связь</a></li>
+							<li><a href="http://cxem.net/izmer/izmer.php">Измерительная техника</a></li>
+							<li><a href="http://cxem.net/remont/remont.php">Ремонт бытовой техники</a></li>
+							<li><a href="http://cxem.net/pitanie/5.php">Источники питания и ЗУ</a></li>
+							<li><a href="http://cxem.net/electric/electric.php">Электрика</a></li>
+							<li><a href="http://cxem.net/promelectr/promelectr.php">Промышленная электроника</a></li>
+							<li><a href="http://cxem.net/tesla/tesla.php">Высокое напряжение и Тесла</a></li>
+							<li><a href="http://cxem.net/master/oglav.php">Мастерская радиолюбителя</a></li>
+							<li><a href="http://cxem.net/sprav/sprav.php">Справочные материалы</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="http://cxem.net/programs.php" class="item"><b></b><span><div class="sprite_menu programs"></div></span><i></i></a>
+					<div class="subnav">
+						<div class="subnav-bg"></div>
+						<ul>
+							<li><a href="http://cxem.net/calc/calc.php">Он-лайн калькуляторы</a></li>
+							<li><a href="http://cxem.net/software/soft_PCB.php">PCB</a></li>
+							<li><a href="http://cxem.net/software/soft_CAD.php">CAD</a></li>
+							<li><a href="http://cxem.net/software/soft_sketch.php">Черчение схем</a></li>
+							<li><a href="http://cxem.net/software/soft_audio.php">Аудио-софт</a></li>
+							<li><a href="http://cxem.net/software/soft_mcu.php">Микроконтроллеры</a></li>
+							<li><a href="http://cxem.net/software/soft_measurement.php">Измерения</a></li>
+							<li><a href="http://cxem.net/software/soft_generator.php">Генераторы</a></li>
+							<li><a href="http://cxem.net/software/soft_calc.php">Расчеты</a></li>
+							<li><a href="http://cxem.net/software/soft_android.php">Android</a></li>
+							<li><a href="http://cxem.net/software/soft_misc.php">Разное</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="http://forum.cxem.net/" class="item"><b></b><span><div class="sprite_menu forum"></div></span><i></i></a></li>
+				<li><a href="http://cxem.net/konkurs.php" class="item"><b></b><span><div class="sprite_menu konkurs"></div></span><i></i></a>
+				<div class="subnav">
+						<div class="subnav-bg"></div>
+						<ul>
+							<li><a href="http://cxem.net/konkurs.php">Конкурсы с призами</a></li>
+							<li><a href="http://cxem.net/top.php">Рейтинг статей</a></li>
+						</ul>
+					</div>
+				</li>				
+				<li><a href="http://cxem.net/magazines/magazines.php" class="item"><b></b><span><div class="sprite_menu shops"></div></span><i></i></a>
+					<div class="subnav">
+						<div class="subnav-bg"></div>
+						<ul>
+							<li><a href="http://cxem.net/magazines/maps.php">Карта радио магазинов</a></li>
+							<li><a href="http://cxem.net/magazines/magazines.php">Обзоры интернет-магазинов</a></li>
+							<li><a href="http://cxem.net/books.php">Литература</a></li>
+						</ul>
+					</div>
+				</li>			
+				<li><a href="http://electronshiki.ru/" class="item" title="Скорая помощь для радиолюбителей. 1000 руб каждый месяц!"><b></b><span><div class="sprite_menu_electronshiki"></div></span><i></i></a></li>
+			</ul>
+            <ul class="enter">
+            	            		<li class="gologin" title="Войти в свой профиль" onclick="location.href = 'http://cxem.net/cms/login'">
+ 	 	        		<img class="new" src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/new.png">
+                		Войти
+                	</li>
+					
+                           </ul>
+		</div>
+	</div>
+<!-- Конец ШАПКИ -->
+
+<div align="center"><a href="http://service-gsm.ru/" targer="_blank"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/service-gsm.gif" title="Оборудование и комплектующие для ремонта сотовых телефонов"></a></div><div style="padding-right:25px; font-weight: bold" align="right">Раздел: <a href="http://cxem.net/" class="chems">Главная</a> <img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/arrow.gif" alt="»"> <a href="http://cxem.net/sound/amps/amps.php" class="chems">Усилители</a></div>
+	
+<div class="cont_right">
+	
+	<div align="center"><object type="application/x-shockwave-flash" data="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20(%D0%A1%D0%901237HA)_files/konkurs_forum.swf" height="600" width="160"><param name="movie" value="http://cxem.net/images/konkurs_forum.swf"><param name="quality" value="high"><param name="bgcolor" value="#FFFFFF"><param name="play" value="true"><param name="loop" value="true"><param name="wmode" value="opaque"><param name="scale" value="showall"><param name="menu" value="true"><param name="devicefont" value="false"><param name="salign" value=""><param name="allowScriptAccess" value="always"></object></div>
+	
+
+	
+	<!-- /home/cxemnet/public_html/cache/similar/265e45f3159e3280d6ae2655f56e1f24.php --><h4>Похожие статьи:</h4><ul><li><a href="http://cxem.net/pitanie/5-87.php">Блок питания на микросхеме LM723</a></li><li><a href="http://cxem.net/sound/amps/amp56.php">УНЧ на на микросхеме C1316C</a></li></ul>
+	<p style="padding-top: 15px" align="center"><a href="http://cxem.net/donate.php"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/donate.png" title="Поддержите сайт Паяльник!" border="0"></a></p>
+	
+	<p style="padding-top: 15px" align="center"><a href="http://forum.cxem.net/index.php?showforum=13"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/send_idea.png" title="Предложите свою идею по усовершенствованию сайта" border="0"></a></p>
+	
+	<script language="javascript" src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/ajaxrun.js"></script>
+	<p style="padding-top: 10px" align="center"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/error-report2.jpg" title="Нашел ошибку? Нажми ctrl+enter для сообщения"></p>
+	
+	<!-- <div id="yd_right_panel" style="padding-top: 15px"></div> -->
+
+<div style="padding-top: 15px" align="center">	
+<script type="text/javascript">//<![CDATA[
+    var rnd = Math.floor(Math.random()*99999999999);
+    document.write("<iframe src='//server.adeasy.ru/servead/request/4206");
+    document.write("?cb=");
+    document.write(rnd+"'");
+    document.write(" width='160' height='700' style='width:160px; height:700px;' frameborder='0' scrolling='no'></iframe>");
+//]]></script><iframe src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/4206.htm" style="width:160px; height:700px;" frameborder="0" height="700" scrolling="no" width="160"></iframe>
+</div>
+	
+
+</div>
+	
+<div class="cont">
+<script type="text/javascript">	
+    $(document).ready(function() {
+		$('.subscribe').hide();
+		var interval;
+
+		$('ul.tags li').hover(function(e) {
+			var popup = $(this).find('div');
+			var tag = $(this).find('a').attr('id');
+			interval = setTimeout(function() {
+				$.getJSON(URL + '/tagsubscribe/', 'tag=' + tag, function(json) {
+					if (json.success) {
+						popup.css('left', 0);
+						popup.html(json.message);
+						popup.show();
+					}
+				});
+			}, 600);
+		},
+		function() {
+			var popup1 = $(this).find('div');
+			popup1.html('');
+			popup1.hide();
+			clearInterval(interval);
+		});
+
+
+		//Подписать на тег
+		$('a[rel="subscribe"]').live('click', function() {
+			var a = $(this);
+			var tag = a.attr('id');
+			var user_id = '0';
+			if (user_id == 0) {
+				alert('Необходима регистрация');
+				return false;
+			}
+			$.getJSON(URL + '/tagsubscribe/', 'tag=' + tag + '&action=subscribe', function(json) {
+				if (json.success) {
+					a.attr('rel', 'unsubscribe');
+					a.text('отписаться');
+					a.unwrap('<u>');
+					a.wrap('<i>');
+				} else {
+					alert(json.message);
+				}
+			});
+			return false;
+		});
+
+		//Отписаться на тег
+		$('a[rel="unsubscribe"]').live('click', function() {
+			var a = $(this);
+			var tag = a.attr('id');
+			var user_id = '0';
+			if (user_id == 0) {
+				alert('Необходима регистрация');
+				return false;
+			}
+			$.getJSON(URL + '/tagsubscribe/','tag=' + tag + '&action=unsubscribe', function(json) {
+				if (json.success) {
+					a.attr('rel', 'subscribe');
+					a.text('подписаться');
+					a.unwrap('<i>');
+					a.wrap('<u>');
+				} else {
+					alert(json.message);
+				}
+			});
+			return false;
+		});
+
+	});
+</script><script>
+
+function loadJSCSS(src, type, callback) {
+	var link;
+	if (type == 'js') {
+		link = document.createElement('script');
+		link.setAttribute('src', src);
+		link.setAttribute('type', 'text/javascript');
+		if (callback) {
+			link.onload = callback;
+		}
+	} else if (type == 'css') {
+		link = document.createElement('link');
+		link.setAttribute('rel', 'stylesheet');
+		link.setAttribute('href', src);
+		link.setAttribute('type', 'text/css');
+	}
+	
+	if (typeof link != 'undefined') document.head.insertBefore(link, document.head.firstChild);
+}
+
+	$(document).ready(function() {
+		var f = '.main_content';
+		
+		if ($(f).length == 0) f = '#longright';
+		
+		var lng = new Array();
+		if ($(f).length == 1) {
+			$(f).find('pre').each(function() {
+				var l = this.className.split(':');
+				var lName = this.className.split(':')[l.length - 1].replace(';', '').trim();
+			
+				if (lng.length == 0) {
+					lng.push(lName);
+				} else {
+					for (var i in lng) {
+						if (lng[i] == lName) continue;
+						lng.push(lName);
+					}
+				}				
+			});
+		}
+		
+		if (lng.length > 0) {
+			
+			loadJSCSS(location.protocol + '//' + location.host + '/cms/views/js/syntax/styles/shCoreEclipse.css', 'css');
+			loadJSCSS(location.protocol + '//' + location.host + '/cms/views/js/syntax/scripts/shCore.js', 'js', function() {
+				for (var i in lng) {
+					var lang = lng[i].trim();		
+					if (lang === '') continue;
+				
+					if (lang == 'js') lang = 'JScript';
+					else if (lang == 'csharp') lang = 'CSharp';
+					else lang = lang[0].toUpperCase() + lang.substring(1);
+
+					var file = location.protocol + '//' + location.host + '/cms/views/js/syntax/scripts/shBrush' + lang + '.js';
+					loadJSCSS(file, 'js');
+				}
+				SyntaxHighlighter.all();
+			});
+		
+		}
+	
+	});
+	
+</script>
+
+
+
+
+
+<script>
+
+	function scrollIntoViewIfOutOfView(el) {
+		var topOfPage = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+		var heightOfPage = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+		var elY = 0;
+		var elH = 0;
+		if (document.layers) { // NS4
+			elY = el.y;
+			elH = el.height;
+		}
+		else {
+			for(var p=el; p&&p.tagName!='BODY'; p=p.offsetParent){
+				elY += p.offsetTop;
+			}
+			elH = el.offsetHeight;
+		}
+		if ((topOfPage + heightOfPage) < (elY + elH)) {
+			el.scrollIntoView(false);
+		}
+		else if (elY < topOfPage) {
+			el.scrollIntoView(true);
+		}
+	}
+
+
+	//Show information about radioelement
+	function printDataOfElement(elem, id, s_id, r_id) {
+		$(elem).parent().css('position', 'relative');
+		$('.popup-element').remove();
+
+		var popoup = document.createElement('div');
+		popoup.className = 'popup-element';
+		$(popoup).html('Пожалуйста, подождите...');
+
+		$(elem).parent().append(popoup);
+		$(popoup).css('top', '-' + ($(popoup).height() + 16) + 'px');
+
+		var data = 'dataofelement=1';
+		if (id) {
+			data += '&id=' + id;
+		} else {
+			data += '&s_id=' + s_id + '&r_id=' + r_id;
+		}
+
+		$.ajax({
+			url: '/cms/partinfo/',
+			data: data,
+			type: 'post',
+			dataType: 'json',
+			success: function(json) {
+				if (json.success) {
+					$(popoup).html(json.html.main + '<div id="alldata" class="alldata">Показать дополнительные параметры</div>');
+					$('#alldata').live('click', function() {
+						$(popoup).html(json.html.main + json.html.additional);
+						$(popoup).css('top', '-' + ($(popoup).height() + 16) + 'px');
+						scrollIntoViewIfOutOfView(popoup);
+					});
+
+				} else {
+					$(popoup).html(json.message);
+				}
+				$(popoup).css('top', '-' + ($(popoup).height() + 16) + 'px');
+				scrollIntoViewIfOutOfView(popoup);
+			}
+		});
+	}
+
+	$(document).ready(function() {
+		$('.popup-close').live('click', function() {
+			$('.popup-element').remove();
+		});
+	});
+</script>
+<script type="text/javascript" src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/arating.js"></script>
+<script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/jquery.js"></script>
+<link type="text/css" rel="stylesheet" href="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/jquery.css">
+
+
+
+<script>
+
+	var jquerysetting = {
+		allowAdd: false,
+		allowEdit: false,
+		allowDelete: false
+	}
+	
+function smallerImage(field, notes) {
+	window.onload = function() {
+	
+		var mfield = field.substring(1);
+		var images = document.getElementById(mfield);
+		if (!images) images = document.getElementsByClassName(mfield)[0];
+
+		images = images.getElementsByTagName('img');
+
+		for (var i = 0; i < images.length; i++) {
+			var img = images[i];
+			img.removeAttribute('style');
+			var width = img.naturalWidth;
+			
+			if (width == 0) {
+				img.onload = function(e) {
+					width = this.width;
+				}
+			}
+
+			if (width > 700) {
+				var src = img.src;
+				img.removeAttribute('style');
+				var thumbs = '';
+				
+								thumbs = src.replace('images', '_thumbs');
+				img.style.width = '700px';
+				img.style.height = 'auto';
+								img.title = 'Нажмите для увеличения';
+				img.src = thumbs;
+
+
+				
+				var wrapper = document.createElement('a');
+				wrapper.href = src;
+				wrapper.rel = 'lightbox';
+				wrapper.appendChild(img.cloneNode(true));
+				img.parentNode.replaceChild(wrapper, img);
+			}
+            else if (img.src.indexOf('/_thumbs/') > -1) {
+
+                var wrapper = document.createElement('a');
+                wrapper.href = img.src.replace('/_thumbs/', '/images/');
+                img.title = 'Нажмите для увеличения';
+                wrapper.rel = 'lightbox';
+				wrapper.target = '_blank';
+                wrapper.appendChild(img.cloneNode(true));
+                img.parentNode.replaceChild(wrapper, img);
+
+            }
+		}
+		
+		if (notes) {
+			$(field + ' img').jQueryNotes(jquerysetting);	
+		}			
+			
+	}
+		
+}
+		
+	
+	
+	
+		
+
+</script>
+
+ <script type="text/javascript">
+
+	$(document).ready(function() {
+		smallerImage('.main_content', false);
+	});
+
+	
+</script>
+
+
+
+<h1 align="center">Защита АС на микросхеме uPC1237 (СА1237HA)</h1>
+<div align="left"><script type="text/javascript"><!--
+	google_ad_client = "ca-pub-5642252578316853";
+	/* CxemTop_Cxems_580_1 */
+	google_ad_slot = "7634606287";
+	google_ad_width = 580;
+	google_ad_height = 400;
+	//-->
+	</script>
+	<script type="text/javascript" src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/show_ads.js">
+	</script><ins style="display:inline-table;border:none;height:400px;margin:0;padding:0;position:relative;visibility:visible;width:580px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:400px;margin:0;padding:0;position:relative;visibility:visible;width:580px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;" frameborder="0" height="400" scrolling="no" width="580"></iframe></ins></ins></div>
+<div class="main_content">
+	<p><em>Статья не является руководством по сборке устройства, а лишь 
+поясняет некоторые возможности и принципы работы микросхемы описанные в 
+даташите.</em></p>
+
+<p>Отличная идея - защита управляемая микросхемой по типу "все в одном".
+ Тут и mute, термозащита, защита от постоянного напряжения на выходе, 
+задержка включения и прикольная фишка в виде отключения выхода при 
+выключении усилителя тумблером 220VAC (on/off), т.е. усилитель не будет 
+играть от конденсаторов БП, а сразу выключится. Ну не рай ли это? Нашел в
+ этой микре только один минус, хотя маловероятный: если у нас на выходе 
+левого, например, будет +30В, а на выходе правого -30В постоянки, то 
+результирующее напряжение получится 0 и защита не сработает и АС успешно
+ погорит, правда такое маловероятно. Но это не недостаток конкретно этой
+ микросхемы, а любой защиты с резистивным суммированием напряжения на 
+входе.<br>
+Теперь к микросхеме uPC1237 (СА1237HA). Хотя микросхема универсальна и 
+работоспособна в пределах +25...60В для ее работы на определенном Uпит, 
+необходимо пересчитать некоторые номиналы. Начнем по порядку 
+(обозначения по схеме выложенной мной ниже).</p>
+
+<p><strong>R6.</strong> Рассчитывается исходя из формулы R6=Uac/1.5 
+(результат получаем в кОм'ах). Uac - напряжение (действующее, 
+переменное) на вторичной обмотке трансформатора. Откуда я взял эту 
+формулу? В даташите приведены графики зависимости R от U, как видно 
+зависимость между ними линейная и произведя простейшие математические 
+расчеты, вывел, что коэффициент зависимости между ними равен 1,5. 
+Полученный после расчетов результат округляем в меньшую (!!) сторону до 
+ближайшего существующего номинала. Постоянка на 4-ой ноге должна быть не
+ более 10В (при расчете по моей формуле это условие соблюдается).</p>
+
+<p><img alt="График зависимости R от U" src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/amp162-1.jpg"></p>
+
+<p><strong>R4.</strong> Считаем по формуле R4=Uvcc/3 (результат в кОм). 
+Uvcc – напряжение, которое мы подаем на схему (на моей схеме +45В). 
+Номиналы вышеизложенных резисторов можно выбирать из таблицы, 
+приведенной в даташите.</p>
+
+<p><img alt="График зависимости R от U" src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/amp162-2.jpg"></p>
+
+<p><strong>R5.</strong> Считаем исходя из параметров реле и напряжения 
+питания. R5=Uvcc-Ur/Ir. Ur - номинальное напряжение реле, Ir - 
+номинальный ток реле. Этот резистор рассеивает неслабую мощь и считается
+ она по формуле P=Uvcc-Ur*Ir, плюс не помешает запас, умножаем результат
+ на 1.2 - 1.8 и округляем в большую (!!) сторону, приводя к ближайшему 
+номиналу мощности (0.25, 0.5, 1, 2 Вт и т.д.).</p>
+
+<p><strong>Реле.</strong> Реле можно ставить любое (только сдвоенное) - 
+хоть на 12В, хоть на 24В (достаточно только пересчитать R5). Можно два 
+реле (не сдвоенных) на 12В последовательно (лучше всего так и сделать). 
+Ток коммутации реле не менее 10А при 220VAC. Номинальный ток катушки 
+реле не более 60 мА (лучше меньше).<br>
+Схема ниже. Схема ниже работоспособна. Все номиналы рассчитаны на +45В и на реле 24В 40мА.</p>
+
+<p><img alt="Схема защиты АС" src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/amp162-3.png"></p>
+
+<p><strong>Tr1</strong>. Что отдельный трансформатор? Нееет... Все 
+гораздо проще! Это не отдельный транс, а отдельная обмотка на уже 
+имеющемся трансе или на худой конец та же обмотка, от которой питается 
+усилитель (если их две, то одна из обмоток, любая). Напряжение на ней 
+(действующее, переменное) должно быть в пределах 5...65В, лучше брать 
+поменьше, чтобы резистору R6 жилось легче. Эта вся возня с обмотками и 
+дает нам следующий эффект: "отключения выхода при выключении тумблера 
+220VAC (on/off), т.е. усилитель не будет играть от конденсаторов БП, а 
+сразу выключится." Если не хотите такого эффекта, то организуйте 
+резистивный делитель и обеспечьте 4-ю ногу постоянкой в 4...8В.</p>
+
+<p>Примечание. При напряжении питания 48...50В можно отказаться от 
+резистора R5 поставив две реле на 24В с последовательным включением 
+катушек.</p>
+
+<p>Потенциал у этой микросхемы огромный. Можно еще клип-детектор на 
+оптопаре добавить, он же будет детектором перегрузки и добавить 
+термозащиту и будет защита всем защитам + простота такого решения и 
+мизер деталей.</p>
+
+<h3>Небольшой FAQ</h3>
+
+<p><strong>Как организовать на этой микросхеме термозащиту ?</strong><br><em>Принцип
+ работы ее такой: когда напруга на 1-ой ноге менее 3.5В - защита выкл, 
+когда напряжение более 3.5В - защита отключает выход. Откуда взять эти 
+3.5В? Необходимо собрать схему по контролю за температурой, которая бы 
+при превышении определенного порога температуры подавала бы на 1-ую ногу
+ микросхемы 3.5В. Схему организовать не сложно.</em></p>
+
+<p><strong>Как рассчитывать R1,R2 под мощность усилителя?</strong><br><em>Судя по даташиту от мощности не зависит, т.е. 56К вне зависимости от мощности усилителя.</em></p>
+
+<p><strong>После срабатывания защиты она не возвращается в рабочий режим, что делать?</strong><br><em>Она
+ вернется, но через время. За время задержки отвечает С2. Если хочешь, 
+чтобы защита сразу выключалась после пропадания постоянки, то 3-ий вывод
+ закороти на землю.</em></p>
+
+<p><strong>Как организовать режим mute?</strong><br><em>Если на 7-ом выводе менее 3.5В - режим mute активен.</em></p>
+
+<p><img alt="Схема защиты АС" src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/amp162-4.jpg"></p>
+
+<p>Стельмах Илья (<a href="http://cxem.net/sound/amps/Ms.Stelmakh@gmail.com">Ms.Stelmakh@gmail.com</a>) Aka <a href="http://forum.cxem.net/index.php?showuser=8869">Nem0</a><br>
+Беларусь, Молодечно 2012</p><div style="font-weight: bold;">Прикрепленные файлы:<ul><li><a href="http://cxem.net/sound/amps/files/amp162_uPC1237.pdf">uPC1237.pdf</a> (1154 Кб)</li></ul></div>
+</div>
+
+
+
+<div class="articlebottom">
+	<div style="float: left;">
+		<img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/mode_author.png" title="Автор статьи"> <strong>Стельмах И.</strong>
+		<img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/mode_public.png" title="Дата публикации статьи"> Опубликована: 2012 г.
+		
+		<img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/mode_comment.png" title="Количество комментариев"> <span id="count_comments">0</span>
+		<img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/mode_favorite.png" id="favArticle" title="Подписаться на статью"> 0	</div>
+
+	<div style="float: right; margin-right: 15px;">
+					<span class="getpdf"><a href="http://cxem.net/getPDF.php?id=1284" title="Получить PDF-версию статьи"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/getpdf.png" srcset="/images/icons/getpdf.png 1x, /images/icons/getpdf_2x.png 2x"></a></span>
+				<span id="donate" title="Поощрить автора статьи"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/mode_donate.png" title="Вознаградить автора статьи"> Вознаградить</span>
+
+		
+		<a id="buildadd" href="#" title="Написать про результат своей сборки">Я собрал</a>
+				<span id="buildcount" title="Количество сборок других пользователей">0</span>
+				
+		
+
+		<span title="Средний балл статьи: 0" id="arating" style="height: 15.181818181818px; background-position: 0 -151.81818181818px;"></span><span style="color: rgba(255, 255, 255, .5); padding: 0 10px 0 15px;" title="Количество оценивших статью: 0">0</span><div style="display: none;" class="arating">
+									<div class="close">x</div><h3 style="margin: 0; text-align: center;">Оценить статью</h3><ul class="rating"><li><span class="criterion">Техническая грамотность</span><div class="votes" data-id="1" data-weight="1"><ul><li class="vote" data-value="1"></li><li class="vote" data-value="2"></li><li class="vote" data-value="3"></li><li class="vote" data-value="4"></li><li class="vote" data-value="5"></li></ul></div></li><li><span class="criterion">Актуальность материала</span><div class="votes" data-id="2" data-weight="0.8"><ul><li class="vote" data-value="1"></li><li class="vote" data-value="2"></li><li class="vote" data-value="3"></li><li class="vote" data-value="4"></li><li class="vote" data-value="5"></li></ul></div></li><li><span class="criterion">Изложение материала</span><div class="votes" data-id="3" data-weight="0.6"><ul><li class="vote" data-value="1"></li><li class="vote" data-value="2"></li><li class="vote" data-value="3"></li><li class="vote" data-value="4"></li><li class="vote" data-value="5"></li></ul></div></li><li><span class="criterion">Полезность устройства	</span><div class="votes" data-id="4" data-weight="0.4"><ul><li class="vote" data-value="1"></li><li class="vote" data-value="2"></li><li class="vote" data-value="3"></li><li class="vote" data-value="4"></li><li class="vote" data-value="5"></li></ul></div></li><li><span class="criterion">Повторяемость устройства</span><div class="votes" data-id="5" data-weight="0.3"><ul><li class="vote" data-value="1"></li><li class="vote" data-value="2"></li><li class="vote" data-value="3"></li><li class="vote" data-value="4"></li><li class="vote" data-value="5"></li></ul></div></li><li><span class="criterion">Орфография</span><div class="votes" data-id="6" data-weight="0.2"><ul><li class="vote" data-value="1"></li><li class="vote" data-value="2"></li><li class="vote" data-value="3"></li><li class="vote" data-value="4"></li><li class="vote" data-value="5"></li></ul></div></li></ul><div class="result-rating">0</div><div class="additional" style="clear: both;"><div style="text-align: center; padding-top: 5px;"><textarea id="addittext" style="width: 290px; font-size: 11px; resize: vertical;" maxlength="255" rows="3" placeholder="Напишите пару слов о недостатках или достоинствах статьи. В дальнейшем Вы не сможете изменить свою оценку!"></textarea></div><div id="buttons" style="text-align: center; margin: 0;">
+										<button type="button" class="button-ok" id="dorating" style="font-size: 11px;">Оценить</button>
+										<button type="button" class="button-ok" id="resetrating" style="font-size: 11px;">Сбросить</button>
+									</div></div><p style="margin: 0; line-height: normal; color: #bbb;">
+									<span>Средний балл: 0</span>
+									<span style="float: right;">Проголосовало: 0 чел.</span>
+								</p></div>	</div>
+</div>
+
+
+
+<link type="text/css" rel="stylesheet" href="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/comments.css">
+
+<div style="margin: 25px 0;" id="yd_cxem_bottom1" align="left"><div id="ya_partner_yd_cxem_bottom1-flat" style="background:transparent none no-repeat scroll 0 0 !important;border:none !important;border-radius:none !important;border-spacing:0 !important;border-collapse:collapse !important;-moz-box-sizing:content-box !important;box-sizing:content-box !important;clear:none !important;clip:auto !important;color:inherit !important;cursor:auto !important;empty-cells:show !important;float:none !important;font:inherit !important;font-variant:normal !important;font-weight:normal !important;height:auto !important;letter-spacing:normal !important;line-height:normal !important;margin:0 !important;max-height:none !important;max-width:none !important;min-height:0 !important;min-width:0 !important;outline:none !important;overflow:visible !important;padding:0 !important;position:static !important;table-layout:auto !important;text-align:left !important;text-decoration:none !important;text-indent:0 !important;text-transform:none !important;vertical-align:baseline !important;visibility:visible !important;white-space:normal !important;width:auto !important;word-spacing:normal !important;z-index:auto !important;display:block !important;"><yatag class="ya-partner_ads-up ya-partner_theme_flat  ya-partner ya-partner_type_flat ya-partner_type_flat-simple"><yatag class="ya-partner__ads"><yatag class="ya-partner__ads-l"><a href="http://direct.yandex.ru/?partner" class="ya-partner__ads-link ya-partner__ads-link-l" target="_blank">Яндекс.Директ</a></yatag></yatag><yatag class="ya-partner__list"><yatag class="ya-partner__item ya-partner__item_pic_yes ya-partner__item_piclayout_left ya-partner__item_sitelinks_no ya-partner__item_pos_first"><table class="ya-partner__l-table" cellpadding="0" cellspacing="0"><tbody><tr class="ya-partner__l-tr"><td class="ya-partner__l-td ya-partner__l-pic-td"><yatag class="ya-partner__pic-container"><a href="http://an.yandex.ru/count/1McQSIbUW9K40000ZhZHf2S5XOoDbGAR0Mv3jm8h0OYnS6hm0ecbjkg0c0UUjz0HS0AThkAL1Po-p7pl0PQWTDdeklxCVE-1SbJe1PgSzG6cBegiidbglQAVQPEg0QMWdmW2aRXJLF4AZxNfkEG9dwxc9g-JYmkP1aACaCG9e91C7Q-Gn0cKciWKfvvD3QYW7UKRfB00000xhlfDiCdbgeBg1B2h8A4LiG6oW1Ax_A9toQ_uI0q2UnK0?test-tag=1169&amp;stat-id=654384391" class="ya-partner__pic" target="_blank" title="lina.com.ua" style="width:80px !important;height:98px !important;background-image:url('//avatars-fast.yandex.net/get-direct/u2HpYst0l6-tWckrgubpbw/x80') !important;"></a></yatag></td><td class="ya-partner__l-td"><a href="http://an.yandex.ru/count/1McQSIbUW9K40000ZhZHf2S5XOoDbGAR0Mv3jm8h0OYnS6hm0ecbjkg0c0UUjz0HS0AThkAL1Po-p7pl0PQWTDdeklxCVE-1SbJe1PgSzG6cBegiidbglQAVQPEg0QMWdmW2aRXJLF4AZxNfkEG9dwxc9g-JYmkP1aACaCG9e91C7Q-Gn0cKciWKfvvD3QYW7UKRfB00000xhlfDiCdbgeBg1B2h8A4LiG6oW1Ax_A9toQ_uI0q2UnK0?test-tag=1169&amp;stat-id=654384391" class="ya-partner__title-link" title="lina.com.ua" target="_blank"><yatag class="ya-partner__title-link-text">Реле, таймеры&nbsp;– Eaton, Elko&nbsp;EP</yatag></a> <yatag class="ya-partner__text">Цена от 21,5 грн. Реле тепловые,времени, напряжения, тока, таймеры</yatag><yatag class="ya-partner__url"><a class="ya-partner__address" href="http://an.yandex.ru/count/1McQSSzl4Pe40000ZhZHf2S5XOoDbGAR0Mv3jm8h0OYnS6hm0ecbjkg0c0UUjz0HS0AThkAL1Po-p7pl0PQWTDdeklxCVE-1SbJe1PgSzG6cBegiidbglQAVQPEg1wMWdmW2aRXJLF4AZxNfkEG9dwxc9g-JYmkP1aACaCG9e91C7Q-Gn0cKciWKfvvD3QYW7UKRfB00000xhlfDiCdbgeBg1B2h8A4LiG6oW1Ax_A9toQ_uI0q2UnK0?test-tag=1169&amp;stat-id=654384391" target="_blank">Адрес&nbsp;и&nbsp;телефон</a>&nbsp;<yatag class="ya-partner__domain"><a class="ya-partner__domain-link" href="http://an.yandex.ru/count/1McQSIbUW9K40000ZhZHf2S5XOoDbGAR0Mv3jm8h0OYnS6hm0ecbjkg0c0UUjz0HS0AThkAL1Po-p7pl0PQWTDdeklxCVE-1SbJe1PgSzG6cBegiidbglQAVQPEg0QMWdmW2aRXJLF4AZxNfkEG9dwxc9g-JYmkP1aACaCG9e91C7Q-Gn0cKciWKfvvD3QYW7UKRfB00000xhlfDiCdbgeBg1B2h8A4LiG6oW1Ax_A9toQ_uI0q2UnK0?test-tag=1169&amp;stat-id=654384391" target="_blank">lina.com.ua</a></yatag>&nbsp;<yatag class="ya-partner__region"></yatag></yatag></td></tr></tbody></table></yatag><yatag class="ya-partner__item ya-partner__item_pic_yes ya-partner__item_piclayout_left ya-partner__item_sitelinks_no"><table class="ya-partner__l-table" cellpadding="0" cellspacing="0"><tbody><tr class="ya-partner__l-tr"><td class="ya-partner__l-td ya-partner__l-pic-td"><yatag class="ya-partner__pic-container"><a href="http://an.yandex.ru/count/1McQSHJ3Cby40000ZhZHf2S5XOoDbGAR0Mv3jm8h0JA8kva4O0Q9gJq9hvYXwho-dhVG4N02dQ-smWkMe7JPwBh-p7plWN9Kw0McPOggB21llQ1kvaQg0QMcO281aRXJLF4AZxmw6fO8dxJHTs4BauiBcJb2Z90N4Q2GY1Ela1SHb9y32wUUV06ejzLMKmMai00003ki7QxwJR39vQg2wWImgo2X5R41ie0Ik_oYTycl-4WD0daL?test-tag=1169&amp;stat-id=654384391" class="ya-partner__pic" target="_blank" title="blogfx.net" style="width:80px !important;height:80px !important;background-image:url('//avatars-fast.yandex.net/get-direct/6SvAllSxGA0k1lSULHMdyg/y80') !important;"></a></yatag></td><td class="ya-partner__l-td"><a href="http://an.yandex.ru/count/1McQSHJ3Cby40000ZhZHf2S5XOoDbGAR0Mv3jm8h0JA8kva4O0Q9gJq9hvYXwho-dhVG4N02dQ-smWkMe7JPwBh-p7plWN9Kw0McPOggB21llQ1kvaQg0QMcO281aRXJLF4AZxmw6fO8dxJHTs4BauiBcJb2Z90N4Q2GY1Ela1SHb9y32wUUV06ejzLMKmMai00003ki7QxwJR39vQg2wWImgo2X5R41ie0Ik_oYTycl-4WD0daL?test-tag=1169&amp;stat-id=654384391" class="ya-partner__title-link" title="blogfx.net" target="_blank"><yatag class="ya-partner__title-link-text">Подработка в&nbsp;свободное время</yatag></a> <yatag class="ya-partner__text">Средняя зарплата - 111&nbsp;786&nbsp;руб. в мес. Абсолютно свободный график</yatag><yatag class="ya-partner__url"><yatag class="ya-partner__domain"><a class="ya-partner__domain-link" href="http://an.yandex.ru/count/1McQSHJ3Cby40000ZhZHf2S5XOoDbGAR0Mv3jm8h0JA8kva4O0Q9gJq9hvYXwho-dhVG4N02dQ-smWkMe7JPwBh-p7plWN9Kw0McPOggB21llQ1kvaQg0QMcO281aRXJLF4AZxmw6fO8dxJHTs4BauiBcJb2Z90N4Q2GY1Ela1SHb9y32wUUV06ejzLMKmMai00003ki7QxwJR39vQg2wWImgo2X5R41ie0Ik_oYTycl-4WD0daL?test-tag=1169&amp;stat-id=654384391" target="_blank">blogfx.net</a></yatag>&nbsp;<yatag class="ya-partner__region"></yatag></yatag></td></tr></tbody></table></yatag><yatag class="ya-partner__item ya-partner__item_sitelinks_no"><a href="http://an.yandex.ru/count/1McQSMVu2I040000ZhZHf2S5XOoDbGAR0Mv3jm8h0JE8lrO1u0U9c0SOc0UUjz0HS0ATgrEN0fo-p7pl0PQWTDdeklxCVE-1SbJe1PgSzG6cVOghdXy4lQ0cKGIg0QMMe72Hk5DKyGgFjUcuv0cVhkOchvEB2va6GeoGBYAWa2uYhv0k8fIO1nMdXw-eeA6i3AIm0000EwxwJR39vQg2wWImgo2X5R41ie0Gk_oYTycl-4WD0daL?test-tag=1169&amp;stat-id=654384391" class="ya-partner__title-link" title="radiorele.ru" target="_blank"><img class="ya-partner__icon" src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/www.png" alt=""><yatag class="ya-partner__title-link-text">Тематический справочник по&nbsp;реле</yatag></a> <yatag class="ya-partner__text">Подробная информация о&nbsp;реле и&nbsp;релейной технике, подбор и&nbsp;замена реле <span class="ya-partner__agewarn-displacer">18+</span></yatag><yatag class="ya-partner__url"><yatag class="ya-partner__domain"><a class="ya-partner__domain-link" href="http://an.yandex.ru/count/1McQSMVu2I040000ZhZHf2S5XOoDbGAR0Mv3jm8h0JE8lrO1u0U9c0SOc0UUjz0HS0ATgrEN0fo-p7pl0PQWTDdeklxCVE-1SbJe1PgSzG6cVOghdXy4lQ0cKGIg0QMMe72Hk5DKyGgFjUcuv0cVhkOchvEB2va6GeoGBYAWa2uYhv0k8fIO1nMdXw-eeA6i3AIm0000EwxwJR39vQg2wWImgo2X5R41ie0Gk_oYTycl-4WD0daL?test-tag=1169&amp;stat-id=654384391" target="_blank">radiorele.ru</a></yatag>&nbsp;<yatag class="ya-partner__region"></yatag><span class="ya-partner__agewarn-displacer">18+</span></yatag><yatag class="ya-partner__agewarn-wrapper"><yatag class="ya-partner__agewarn-cont"><yatag class="ya-partner__agewarn">18+</yatag></yatag></yatag></yatag><yatag class="ya-partner__item ya-partner__item_sitelinks_yes ya-partner__item_pos_last"><a href="http://an.yandex.ru/count/1McQSMj5eJi40000ZhZHf2S5XOoDbGAR0Mv3jm8h0JI8l2O280U9jSfV9m6OPvwtq15m0fsPkXoMe7JPwBh-p7plWN9Kw0McSOgay5AhlQ5eyz-g0QMXKtq2aRXJLF4AZxz4Vne8dxq486uEauiBcJb2Z909FQ2G2Jsla0azb9Vv5QU5PwYW0xK1fB00000xh1sk-asmoUMgWke4iAiWeHMn0RA04BlyedV9h_X83G9y5000?test-tag=1169&amp;stat-id=654384391" class="ya-partner__title-link" title="portativ.ua" target="_blank"><img class="ya-partner__icon" src="4206_data/portativ.png" alt=""><yatag class="ya-partner__title-link-text">Koss The</yatag></a> <yatag class="ya-partner__text">Наушники всего за&nbsp;122 грн гарантия. Быстрая доставка.</yatag><yatag class="ya-partner__sitelinks"><yatag class="ya-partner__sitelink ya-partner__sitelink-1"><a class="ya-partner__sitelinks-text" target="_blank" href="http://an.yandex.ru/count/1McQSMcKdAS40000ZhZHf2S5XOoDbGAR0Mv3jm8h0JI8l2O280U9jSfV9m6OPvwtq15m0fsPkXoMe7JPwBh-p7plWN9Kw0McSOgay5AhlQ5eyz-g7wMXKtq2aRXJLF4AZxz4Vne8dxq486uEauiBcJb2Z909FQ2G2Jsla0azb9Vv5QU5PwYW0xK1fB00000xh1sk-asmoUMgWke4iAiWeHMn0RA04BlyedV9h_X83G9y5000?test-tag=1169&amp;stat-id=654384391">Контакты</a><yatag class="ya-partner__sitelinks-inline-delim">·</yatag></yatag><wbr><yatag class="ya-partner__sitelink ya-partner__sitelink-2"><a class="ya-partner__sitelinks-text" target="_blank" href="http://an.yandex.ru/count/1McQSTgMBKG40000ZhZHf2S5XOoDbGAR0Mv3jm8h0JI8l2O280U9jSfV9m6OPvwtq15m0fsPkXoMe7JPwBh-p7plWN9Kw0McSOgay5AhlQ5eyz-g8QMXKtq2aRXJLF4AZxz4Vne8dxq486uEauiBcJb2Z909FQ2G2Jsla0azb9Vv5QU5PwYW0xK1fB00000xh1sk-asmoUMgWke4iAiWeHMn0RA04BlyedV9h_X83G9y5000?test-tag=1169&amp;stat-id=654384391">Гарантии</a><yatag class="ya-partner__sitelinks-inline-delim">·</yatag></yatag><wbr><yatag class="ya-partner__sitelink ya-partner__sitelink-3"><a class="ya-partner__sitelinks-text" target="_blank" href="http://an.yandex.ru/count/1McQSMmsvvy40000ZhZHf2S5XOoDbGAR0Mv3jm8h0JI8l2O280U9jSfV9m6OPvwtq15m0fsPkXoMe7JPwBh-p7plWN9Kw0McSOgay5AhlQ5eyz-g8wMXKtq2aRXJLF4AZxz4Vne8dxq486uEauiBcJb2Z909FQ2G2Jsla0azb9Vv5QU5PwYW0xK1fB00000xh1sk-asmoUMgWke4iAiWeHMn0RA04BlyedV9h_X83G9y5000?test-tag=1169&amp;stat-id=654384391">Доставка</a></yatag><wbr></yatag><yatag class="ya-partner__url"><yatag class="ya-partner__domain"><a class="ya-partner__domain-link" href="http://an.yandex.ru/count/1McQSMj5eJi40000ZhZHf2S5XOoDbGAR0Mv3jm8h0JI8l2O280U9jSfV9m6OPvwtq15m0fsPkXoMe7JPwBh-p7plWN9Kw0McSOgay5AhlQ5eyz-g0QMXKtq2aRXJLF4AZxz4Vne8dxq486uEauiBcJb2Z909FQ2G2Jsla0azb9Vv5QU5PwYW0xK1fB00000xh1sk-asmoUMgWke4iAiWeHMn0RA04BlyedV9h_X83G9y5000?test-tag=1169&amp;stat-id=654384391" target="_blank">portativ.ua</a></yatag>&nbsp;<yatag class="ya-partner__region"></yatag></yatag></yatag></yatag></yatag></div></div>
+
+
+<div style="margin: 20px 0 25px 0;">
+	<div class="addthis_toolbox addthis_default_style addthis_16x16_style">
+	<a href="#" title="VKontakte" target="_blank" class="addthis_button_vk at300b"><span class="at16nc at300bs at15nc at15t_vk at16t_vk"><span class="at_a11y">Share on vk</span></span></a>
+	<a title="Google+" target="_blank" href="http://www.addthis.com/bookmark.php?v=300&amp;winname=addthis&amp;pub=ra-51a2e1a66c3e0b15&amp;source=tbx-300&amp;lng=ru-RU&amp;s=google_plusone_share&amp;url=http%3A%2F%2Fcxem.net%2Fsound%2Famps%2Famp162.php&amp;title=%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29&amp;ate=AT-ra-51a2e1a66c3e0b15/-/-/527a4d127aab10eb/2&amp;frommenu=1&amp;uid=527a4d129fd6ccad&amp;ct=1&amp;pre=http%3A%2F%2Fcxem.net%2Fsound%2Famps%2Famps.php&amp;tt=0&amp;captcha_provider=nucaptcha" class="addthis_button_google_plusone_share at300b"><span class="at16nc at300bs at15nc at15t_google_plusone_share at16t_google_plusone_share"><span class="at_a11y">Share on google_plusone_share</span></span></a>
+	<a title="Odnoklassniki" target="_blank" href="http://www.addthis.com/bookmark.php?v=300&amp;winname=addthis&amp;pub=ra-51a2e1a66c3e0b15&amp;source=tbx-300&amp;lng=ru-RU&amp;s=odnoklassniki_ru&amp;url=http%3A%2F%2Fcxem.net%2Fsound%2Famps%2Famp162.php&amp;title=%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29&amp;ate=AT-ra-51a2e1a66c3e0b15/-/-/527a4d127aab10eb/3&amp;frommenu=1&amp;uid=527a4d1286e98b0e&amp;ct=1&amp;pre=http%3A%2F%2Fcxem.net%2Fsound%2Famps%2Famps.php&amp;tt=0&amp;captcha_provider=nucaptcha" class="addthis_button_odnoklassniki_ru at300b"><span class=" at300bs at15nc at15t_odnoklassniki_ru"><span class="at_a11y">Share on odnoklassniki_ru</span></span></a>
+	<a href="#" title="Facebook" class="addthis_button_facebook at300b"><span class="at16nc at300bs at15nc at15t_facebook at16t_facebook"><span class="at_a11y">Share on facebook</span></span></a>
+	<a title="Mail.ru" target="_blank" href="http://www.addthis.com/bookmark.php?v=300&amp;winname=addthis&amp;pub=ra-51a2e1a66c3e0b15&amp;source=tbx-300&amp;lng=ru-RU&amp;s=mymailru&amp;url=http%3A%2F%2Fcxem.net%2Fsound%2Famps%2Famp162.php&amp;title=%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29&amp;ate=AT-ra-51a2e1a66c3e0b15/-/-/527a4d127aab10eb/4&amp;frommenu=1&amp;uid=527a4d12262159f1&amp;ct=1&amp;pre=http%3A%2F%2Fcxem.net%2Fsound%2Famps%2Famps.php&amp;tt=0&amp;captcha_provider=nucaptcha" class="addthis_button_mymailru at300b"><span class="at16nc at300bs at15nc at15t_mymailru at16t_mymailru"><span class="at_a11y">Share on mymailru</span></span></a>
+	<a title="LiveJournal" target="_blank" href="http://www.addthis.com/bookmark.php?v=300&amp;winname=addthis&amp;pub=ra-51a2e1a66c3e0b15&amp;source=tbx-300&amp;lng=ru-RU&amp;s=livejournal&amp;url=http%3A%2F%2Fcxem.net%2Fsound%2Famps%2Famp162.php&amp;title=%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29&amp;ate=AT-ra-51a2e1a66c3e0b15/-/-/527a4d127aab10eb/5&amp;frommenu=1&amp;uid=527a4d12f9466b4f&amp;ct=1&amp;pre=http%3A%2F%2Fcxem.net%2Fsound%2Famps%2Famps.php&amp;tt=0&amp;captcha_provider=nucaptcha" class="addthis_button_livejournal at300b"><span class="at16nc at300bs at15nc at15t_livejournal at16t_livejournal"><span class="at_a11y">Share on livejournal</span></span></a>
+	<a href="#" title="Tweet" class="addthis_button_twitter at300b"><span class="at16nc at300bs at15nc at15t_twitter at16t_twitter"><span class="at_a11y">Share on twitter</span></span></a>
+	<a href="#" class="addthis_button_compact at300m"><span class="at16nc at300bs at15nc at15t_compact at16t_compact"><span class="at_a11y">More Sharing Services</span></span></a><a href="#" style="display: block;" class="addthis_counter addthis_bubble_style"><a href="#" title="View more services" target="_blank" class="addthis_button_expanded">0</a><a class="atc_s addthis_button_compact"><span></span></a></a>
+	<div class="atclear"></div></div>
+	<script type="text/javascript" src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/addthis_widget.js"></script><div id="_atssh" style="visibility: hidden; height: 1px; width: 1px; position: absolute; z-index: 100000;"><iframe src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/sh140.htm" style="height: 1px; width: 1px; position: absolute; z-index: 100000; border: 0px none; left: 0px; top: 0px;" title="AddThis utility frame" id="_atssh505"></iframe></div><script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/core107.js" type="text/javascript"></script>
+</div>
+
+</div>
+
+<div style="padding: 10px; color: #666666; font-size: 12px" align="center">
+	
+</div>
+
+<div style="margin:0px 15px 15px 15px">
+
+<script>var countComments = 0</script>
+<script type="text/javascript" src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/jquery_003.js"></script>
+<script type="text/javascript" src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/comments.js"></script>
+
+<div id="comments">
+	<div id="commentslist">
+		<div class="haventcom">Статью еще никто не комментировал. Вы можете стать первым.</div>	</div>
+	
+	
+	<div id="comment_form">
+	<form id="comments">
+		<div class="caption">Добавить комментарий</div>
+
+		<div class="fields">
+
+			
+				<div class="line">
+					<div class="label"><b>Имя:</b></div>
+					<div class="inputs"><input id="name" name="name" placeholder="Ваше имя" required="required" type="text"></div>
+				</div>
+				<div class="line">
+					<div class="label"><b>E-mail:</b></div>
+					<div class="inputs">
+						<input id="email" name="email" placeholder="Ваш E-mail" required="required" type="email">
+						<span style="font-size: 10px; margin-left: 5px; color: #aaa;">не публикуется</span>
+					</div>
+				</div>
+				<div class="line" style="margin: 7px 0;">
+					<div class="label"></div>
+					<input class="hidden" id="email_noty" name="email_noty" type="checkbox">
+					<label for="email_noty" title="Уведомлять меня по E-mail об ответах на мой комментарий">Уведомлять об ответах на мой комментарий</label>
+
+				</div>
+
+			
+
+			<div id="toolbar">
+				<div class="panel">
+					<div class="tooltip" onclick="selText('[b]', '[/b]')" title="Жирный"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/bold.png"></div>
+					<div class="tooltip" onclick="selText('[i]', '[/i]')" title="Курсив"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/italic.png"></div>
+					<div class="tooltip" onclick="selText('[u]', '[/u]')" title="Подчеркнутый"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/underline.png"></div>
+					<div class="tooltip" onclick="selText('[s]', '[/s]')" title="Зачеркнутый"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/strike.png"></div>
+				</div>
+
+				<div class="panel">
+					<div class="tooltip" onclick="selText('[quote]', '[/quote]')" title="Цитата"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/quote.png"></div>
+					<div class="tooltip" onclick="selText('[url=]', '[/url]')" title="Ссылка"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/link.png"></div>
+									</div>
+			</div>
+
+			<div class="line" style="display: table;">
+				<div class="label" style="display:table-cell; vertical-align: middle;"><b>Текст:</b></div>
+				<div class="inputs"><textarea id="msg" name="msg" rows="7" placeholder="Ваш комментарий" required="required"></textarea></div>
+				<input name="root" id="root" value="0" type="hidden">
+			</div>
+
+			
+				<div class="line">
+					<div class="label"><b>Защита от спама:</b></div>
+					<div class="inputs">
+						<span style="font-size: 11px; color: #175aaa">В чем измеряется напряжение?</span><br>
+						<input name="answer" id="answer" placeholder="Ответ на вопрос" required="required" type="text">
+						<input name="answers" value="вольт, вольтах, вольты, в вольтах" type="hidden">
+					</div>
+				</div>
+
+			
+		</div>
+
+		<div style="margin: 10px 0 10px 80px;">
+			<input class="hidden" id="commentsrules" name="rules" type="checkbox">
+			<label for="commentsrules">Я согласен с <a href="#" id="rulescomments">правилами публикации комментариев</a></label>
+			<p>
+			<button type="submit" name="send" id="send" class="button-ok">Отправить</button></p>
+		</div>
+		<div class="errors">
+		</div>
+	</form>
+
+	<div class="comment-books">
+	<div class="cbooks-picture">
+		<img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/19383905_h225.jpg" title="Ламповые усилители" alt="Ламповые усилители">
+		<div class="cbooks-buy"><a href="http://www.ozon.ru/context/detail/id/19383905/?partner=cxem" rel="nofollow" onclick="_gaq.push(['_trackEvent', 'Ozon', 'Comments', 'Ламповые усилители']);" class="button button-ok">Купить 592 руб.</a></div>
+  </div>
+</div><div class="comment-books-additional"><a href="http://www.ozon.ru/context/detail/id/3412027/?partner=cxem" title="Купить книгу 'Поиск неисправностей в электронике' за 292 руб." rel="nofollow" onclick="_gaq.push(['_trackEvent', 'Ozon', 'Comments', 'Поиск неисправностей в электронике']);"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/3412027_h110.jpg" srcset="http://cxem.net/cache/books/3412027_s.jpg 2x" alt="Поиск неисправностей в электронике" height="110px"></a><a href="http://www.ozon.ru/context/detail/id/19482522/?partner=cxem" title="Купить книгу 'Схемотехника современных усилителей' за 690 руб." rel="nofollow" onclick="_gaq.push(['_trackEvent', 'Ozon', 'Comments', 'Схемотехника современных усилителей']);"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/19482522_h110.jpg" srcset="http://cxem.net/cache/books/19482522_s.jpg 2x" alt="Схемотехника современных усилителей" height="110px"></a></div>
+</div>	<div class="toTop">вверх</div>
+</div></div>
+	
+	<div id="footer">
+		<div class="copyright">
+			<div class="cnt"><strong>1999-2013 Сайт-ПАЯЛЬНИК  'cxem.net' 'payalnik.pro'</strong><br><br>
+			При использовании материалов сайта, обязательна<br>
+			ссылка на сайт ПАЯЛЬНИК и первоисточник</div>
+		</div>
+		<div class="social">
+			<a href="http://vk.com/cxem_net_payalnik" rel="nofollow"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/social_vk.png" border="0"></a>
+			<a href="http://www.youtube.com/user/tolik7772" rel="nofollow"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/social_youtube.png" border="0"></a>
+			<a href="https://plus.google.com/114323020554147549161" rel="nofollow"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/social_gplus.png" border="0"></a>
+			<a href="http://cxem.net/contact.php"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/social_email.png" border="0"></a>
+		</div>
+		<div class="adv_text">
+			<a href="http://cxem.net/reklama.php">Размещение рекламы</a>
+		</div>
+		<div class="stat">
+			<!-- СЧЕТЧИКИ -->
+				<a href="http://www.liveinternet.ru/click;payalnik_all" target="_blank" rel="nofollow"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/logo.gif" title="LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодня" border="0" height="31" width="88"></a>
+				<a href="http://top100.rambler.ru/top100/" rel="nofollow"><img src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/b1.gif" alt="Rambler's Top100" border="0" height="31" width="88"></a>
+			 <!-- /СЧЕТЧИКИ -->				
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+(function(w, d, n, s, t) {
+    w[n] = w[n] || [];
+    w[n].push(function() {
+        Ya.Direct.insertInto(2268, "yd_cxem_bottom1", {
+            stat_id: 654384391,
+            site_charset: "utf-8",
+            ad_format: "direct",
+            font_size: 1.1,
+            type: "flat",
+            limit: 4,
+            title_font_size: 3,
+            site_bg_color: "FFFFFF",
+            title_color: "208EBC",
+            url_color: "1A8099",
+            text_color: "000000",
+            hover_color: "CC6666",
+            favicon: true
+        });
+    });
+    t = d.documentElement.firstChild;
+    s = d.createElement("script");
+    s.type = "text/javascript";
+    s.src = "http://an.yandex.ru/system/context.js";
+    s.setAttribute("async", "true");
+    t.insertBefore(s, t.firstChild);
+})(window, document, "yandex_context_callbacks");
+</script>
+
+<!--
+<script type="text/javascript">
+(function(w, d, n, s, t) {
+    w[n] = w[n] || [];
+    w[n].push(function() {
+        Ya.Direct.insertInto(2268, "yd_right_panel", {
+            stat_id: 46519,
+            site_charset: "utf-8",
+            ad_format: "direct",
+            font_size: 1,
+            type: "vertical",
+            limit: 3,
+            title_font_size: 3,
+            site_bg_color: "FFFFFF",
+            header_bg_color: "FFFFFF",
+            title_color: "208EBC",
+            url_color: "1A8099",
+            text_color: "333333",
+            hover_color: "0066FF",
+            favicon: true
+        });
+    });
+    t = d.documentElement.firstChild;
+    s = d.createElement("script");
+    s.type = "text/javascript";
+    s.src = "http://an.yandex.ru/system/context.js";
+    s.setAttribute("async", "true");
+    t.insertBefore(s, t.firstChild);
+})(window, document, "yandex_context_callbacks");
+</script>
+-->
+
+<script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/1295"></script>
+
+
+<script src="%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%90%D0%A1%20%D0%BD%D0%B0%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B5%20uPC1237%20%28%D0%A1%D0%901237HA%29_files/NHwxfDF8MHwzMzg.htm"></script></body></html>
